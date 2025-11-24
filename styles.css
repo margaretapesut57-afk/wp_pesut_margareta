@@ -5,3 +5,15 @@ background-color: black;
 body {
     background-color: rgb(243, 105, 25);
 }
+
+/*pristup preko ID-a*/
+#prvi {
+  color: blue;
+
+}
+  /*pristup preko klase*/
+
+ .drugi{
+  color: brown;
+
+}

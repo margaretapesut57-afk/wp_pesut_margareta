@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2. kolokvij</title>
+    <style>
+    
+     .flag {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+
+  .black {
+    background-color: #000000;
+    width: 33.33%;
+  }
+
+  .yellow {
+    background-color: #FFD100;
+    width: 33.33%;
+  }
+
+  .red {
+    background-color: #EF3340;
+    width: 33.33%;
+  }
+
+  .grid {
+         display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 100px);
+        gap: 10px;
+        }
+
+    .item {
+        background-color: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight:bold;
+    }
+    .box {
+    border: 1px solid black; 
+    padding: 15px;          
+    margin: 10px;           
+    
+  }
+
+  .tekst {
+    color: blue;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e6f0ff;
+  }
+
+  #prvi {
+    color: red;
+    font-weight: bold;
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffe6e6;
+  }
+
+  #drugi {
+    color: green;
+    font-style: italic;
+    margin: 20px;
+    padding: 10px;
+    background-color: #e6ffe6;
+  }
+
+
+  .zastava {
+            width: 300px;
+            height: 200px;
+            display: flex;
+        }
+
+        .crna {
+            background-color: black;
+            flex: 1;
+        }
+
+        .zuta {
+            background-color: yellow;
+            flex: 1;
+        }
+
+        .crvena {
+            background-color: red;
+            flex: 1;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+    
+    <h1>Zastava Belgije</h1>
+   <div class="flag">
+        <div class="black"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+    </div>
+    <br>
+    <div class="grid">
+        <div class="item">Grid 1</div>
+        <div class="item">Grid 2</div>
+        <div class="item">Grid 3</div>
+        <div class="item">Grid 4</div>
+        <div class="item">Grid 5</div>
+        <div class="item">Grid 6</div>
+        <div class="item">Grid 7</div>
+        <div class="item">Grid 8</div>
+        <div class="item">Grid 9</div>
+        <div class="item">Grid 10</div>
+        <div class="item">Grid 11</div>
+        <div class="item">Grid 12</div>
+        <div class="item">Grid 13</div>
+        <div class="item">Grid 14</div>
+        <div class="item">Grid 15</div>
+        <div class="item">Grid 16</div>
+    </div>
+    
+
+    <div class="box">Prvi element</div>
+    <div class="box">Drugi element</div>
+    <div class="box">Treći element</div>
+    <div class="box">Četvrti element</div>
+
+    <p class="tekst">Ovo je prvi paragraf s klasom.</p>
+    <p class="tekst">Ovo je drugi paragraf s klasom.</p>
+    <p class="tekst">Ovo je treći paragraf s klasom.</p>
+
+    <p id="prvi">Ovo je paragraf s ID-om.</p>
+    <p id="drugi">Ovo je drugi paragraf s ID-om.</p>
+
+    <h2>Box model</h2>
+    <div class="box">box1</div>
+    <div class="box">box2</div>
+    <div class="box">box3</div>
+    <div class="box">box4</div>
+
+    <div class="zastava">
+        <div class="crna"></div>
+        <div class="zuta"></div>
+        <div class="crvena"></div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
+    
+
+    
+
+
+    
+
+
+    
+    
